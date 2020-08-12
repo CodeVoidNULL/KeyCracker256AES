@@ -15,7 +15,7 @@ ciphertext, tag = cipher.encrypt_and_digest(Data)
     # Brute Force Cycle Attempt Function
 path = 'Outputfile.txt'
 list = 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()/?":;.>,<{][}+=-_`|\~'
-trys = 10000000
+trys = 1000000000
 length = 32
 new = open(path, 'w')
 print(new)
