@@ -27,7 +27,7 @@ for i in range (0 , trys)   :
             #New instances must be based on the length of the password searched for
   A = random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list) ,random.choice(list),random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list),random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list), random.choice(list)
   B = "".join(A)
-  Key = B
+  key = B
   key = B[:0] + seg1
   key = B[:33] + seg2
             # ^ Joining all segments -- DEPENDS ON LENGTH for 256 = 32 random.choice()
